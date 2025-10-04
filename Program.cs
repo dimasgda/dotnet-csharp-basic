@@ -25,5 +25,9 @@ class Program
         Console.WriteLine("\n C# Exception Handling:");
         ExceptionHandler exceptionHandler = new ExceptionHandler();
         exceptionHandler.DemonstrateExceptionHandling();
+
+        Console.WriteLine("\n C# Pattern Matching:");
+        PatternMatch patternMatch = new PatternMatch();
+        patternMatch.Test();
     }
 }
