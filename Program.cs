@@ -33,5 +33,9 @@ class Program
         Console.WriteLine("\n C# Operators:");
         Operator operatorDemo = new Operator();
         operatorDemo.DemonstrateOperators();
+
+        Console.WriteLine("\n C# Conversion:");
+        Convertion convertion = new Convertion();
+        convertion.DemonstrateConvertion();
     }
 }
