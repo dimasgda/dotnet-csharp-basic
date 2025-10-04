@@ -17,5 +17,9 @@ class Program
         method.Greet();
         method.Greet("Alice");
         Console.WriteLine($"Sum of Numbers: {method.SumNumbers(1, 2, 3, 4, 5)}");
+
+        Console.WriteLine("\n C# Control Flow:");
+        ControlFlow controlFlow = new ControlFlow();
+        controlFlow.DemonstrateControlFlow();
     }
 }
