@@ -29,5 +29,9 @@ class Program
         Console.WriteLine("\n C# Pattern Matching:");
         PatternMatch patternMatch = new PatternMatch();
         patternMatch.Test();
+
+        Console.WriteLine("\n C# Operators:");
+        Operator operatorDemo = new Operator();
+        operatorDemo.DemonstrateOperators();
     }
 }
