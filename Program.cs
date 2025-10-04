@@ -21,5 +21,9 @@ class Program
         Console.WriteLine("\n C# Control Flow:");
         ControlFlow controlFlow = new ControlFlow();
         controlFlow.DemonstrateControlFlow();
+
+        Console.WriteLine("\n C# Exception Handling:");
+        ExceptionHandler exceptionHandler = new ExceptionHandler();
+        exceptionHandler.DemonstrateExceptionHandling();
     }
 }
